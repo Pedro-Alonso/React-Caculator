@@ -1,0 +1,42 @@
+.head {
+  min-height: 20px;
+  font-size: 13px;
+  text-align: right;
+  color: orange;
+  font-family: "Orbitron", sans-serif;
+  text-align: right;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+}
+
+.result-container {
+    margin-bottom: 4px;
+}
+
+.result {
+    text-align: right;
+    min-height: 28px;
+    font-size: 21px;
+}
+
+@media screen and (max-width: 500px) {
+    .head {
+        min-height: 19px;
+        font-size: 12px;
+    }
+    .result {
+        min-height: 26px;
+        font-size: 20px;
+    }
+}
+
+@media screen and (min-width: 1000px) and (min-height: 1000px) {
+    .head {
+        min-height: 40px;
+        font-size: 23px;
+    }
+    .result {
+        min-height: 60px;
+        font-size: 50px;
+    }
+}
